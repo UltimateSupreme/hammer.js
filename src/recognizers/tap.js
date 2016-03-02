@@ -1,5 +1,5 @@
 /**
- * A tap is ecognized when the pointer is doing a small tap/click. Multiple taps are recognized if they occur
+ * A tap is recognized when the pointer is doing a small tap/click. Multiple taps are recognized if they occur
  * between the given interval and position. The delay option can be used to recognize multi-taps without firing
  * a single tap.
  *
@@ -8,7 +8,7 @@
  * @constructor
  * @extends Recognizer
  */
-function TapRecognizer() {
+export function TapRecognizer() {
     Recognizer.apply(this, arguments);
 
     // previous time and center,
